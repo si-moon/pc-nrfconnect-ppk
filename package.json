@@ -16,6 +16,7 @@
   "files": [
     "dist/",
     "resources/icon.*",
+    "firmware/ppk_1-2-1.hex",
     "icon.png",
     "LICENSE"
   ],

@@ -311,7 +311,8 @@ class Chart extends React.Component {
                     type: 'linear',
                     min: options.valueRange.min,
                     max: options.valueRange.max,
-                    ticks: { suggestedMax: 10, maxTicksLimit: 7 },
+                    /* ticks: { suggestedMax: 10, maxTicksLimit: 7 }, */
+                    ticks: options.ticks,
                 }],
             },
             redraw: true,
